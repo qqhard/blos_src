@@ -67,5 +67,8 @@ theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+
 deploy:
-  type:
+  type: git
+  repo:
+    coding: git@git.coding.net:qqhard/qqhard.git,master
